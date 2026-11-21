@@ -1,0 +1,44 @@
+{
+    "status": "PASS",
+    "checks": {
+        "same_feature_columns": true,
+        "no_train_nulls": true,
+        "no_test_nulls": true,
+        "train_values_finite": true,
+        "test_values_finite": true,
+        "train_rows_match": true,
+        "test_rows_match": true,
+        "no_target_in_features": true,
+        "features_not_empty": true
+    },
+    "train_shape": [
+        486,
+        20
+    ],
+    "test_shape": [
+        122,
+        20
+    ],
+    "feature_columns": [
+        "numeric__ApplicantIncome",
+        "numeric__CoapplicantIncome",
+        "numeric__LoanAmount",
+        "numeric__Loan_Amount_Term",
+        "numeric__Credit_History",
+        "categorical__Gender_Female",
+        "categorical__Gender_Male",
+        "categorical__Married_No",
+        "categorical__Married_Yes",
+        "categorical__Dependents_0",
+        "categorical__Dependents_1",
+        "categorical__Dependents_2",
+        "categorical__Dependents_3+",
+        "categorical__Education_Graduate",
+        "categorical__Education_Not Graduate",
+        "categorical__Self_Employed_No",
+        "categorical__Self_Employed_Yes",
+        "categorical__Property_Area_Rural",
+        "categorical__Property_Area_Semiurban",
+        "categorical__Property_Area_Urban"
+    ]
+}

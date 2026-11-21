@@ -1,0 +1,55 @@
+{
+    "target_column": "Loan_Status",
+    "input_features": [
+        "Gender",
+        "Married",
+        "Dependents",
+        "Education",
+        "Self_Employed",
+        "ApplicantIncome",
+        "CoapplicantIncome",
+        "LoanAmount",
+        "Loan_Amount_Term",
+        "Credit_History",
+        "Property_Area"
+    ],
+    "numeric_features": [
+        "ApplicantIncome",
+        "CoapplicantIncome",
+        "LoanAmount",
+        "Loan_Amount_Term",
+        "Credit_History"
+    ],
+    "categorical_features": [
+        "Gender",
+        "Married",
+        "Dependents",
+        "Education",
+        "Self_Employed",
+        "Property_Area"
+    ],
+    "output_features": [
+        "numeric__ApplicantIncome",
+        "numeric__CoapplicantIncome",
+        "numeric__LoanAmount",
+        "numeric__Loan_Amount_Term",
+        "numeric__Credit_History",
+        "categorical__Gender_Female",
+        "categorical__Gender_Male",
+        "categorical__Married_No",
+        "categorical__Married_Yes",
+        "categorical__Dependents_0",
+        "categorical__Dependents_1",
+        "categorical__Dependents_2",
+        "categorical__Dependents_3+",
+        "categorical__Education_Graduate",
+        "categorical__Education_Not Graduate",
+        "categorical__Self_Employed_No",
+        "categorical__Self_Employed_Yes",
+        "categorical__Property_Area_Rural",
+        "categorical__Property_Area_Semiurban",
+        "categorical__Property_Area_Urban"
+    ],
+    "input_feature_count": 11,
+    "output_feature_count": 20
+}

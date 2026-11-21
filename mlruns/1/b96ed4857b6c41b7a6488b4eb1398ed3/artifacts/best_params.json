@@ -1,0 +1,13 @@
+{
+    "Logistic_Regression": {
+        "C": 10
+    },
+    "KNN": {
+        "n_neighbors": 7,
+        "weights": "uniform"
+    },
+    "Decision_Tree": {
+        "max_depth": 3,
+        "min_samples_split": 2
+    }
+}
